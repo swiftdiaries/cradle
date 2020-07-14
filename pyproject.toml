@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "cradle"
+version = "0.1.0"
+description = "Test ML models in production (or otherwise)"
+authors = ["swiftdiaries <adhita94@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+cradle = "cradle.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.3.0"}
+pre-commit = "^2.6.0"
+black = "^19.10b0"
+fastapi = {extras = ["all"], version = "^0.59.0"}
+gradio = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

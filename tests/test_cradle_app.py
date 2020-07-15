@@ -1,4 +1,4 @@
-from cradle import __version__
+from cradle_app import __version__
 
 
 def test_version():

@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "cradle"
-version = "0.1.0"
-description = "Test ML models in production (or otherwise)"
+name = "cradle-app"
+version = "0.1.1"
+description = "A tool to test ML models"
 authors = ["swiftdiaries <adhita94@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.scripts]
-cradle = "cradle.main:app"
+cradle-app = "cradle_app.main:app"
 
 [tool.poetry.dependencies]
 python = "^3.8"

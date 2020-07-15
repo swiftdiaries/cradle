@@ -11,7 +11,7 @@ def greet(name):
 @app.callback()
 def callback():
     """
-    cradle is tool to test, visualize ML models in production.
+    cradle is tool to test ML models in production.
     """
 
 

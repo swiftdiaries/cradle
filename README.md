@@ -3,13 +3,22 @@
 ![Lint](https://github.com/swiftdiaries/cradle/workflows/Lint/badge.svg)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+cradle is a tool to test ML models.
 
-cradle is tool to test, visualize ML models in production.
+**Installation**:
+
+```console
+$ pip install cradle-app
+```
+
+## `cradle-app`
+
+cradle is tool to test ML models in production.
 
 **Usage**:
 
 ```console
-$ cradle [OPTIONS] COMMAND [ARGS]...
+$ cradle-app [OPTIONS] COMMAND [ARGS]...
 ```
 
 **Options**:
@@ -23,28 +32,28 @@ $ cradle [OPTIONS] COMMAND [ARGS]...
 * `init`: init cradle app
 * `launch`: Launch gradio instance
 
-## `cradle init`
+## `cradle-app init`
 
 init cradle app
 
 **Usage**:
 
 ```console
-$ cradle init [OPTIONS]
+$ cradle-app init [OPTIONS]
 ```
 
 **Options**:
 
 * `--help`: Show this message and exit.
 
-## `cradle launch`
+## `cradle-app launch`
 
 Launch gradio instance
 
 **Usage**:
 
 ```console
-$ cradle launch [OPTIONS]
+$ cradle-app launch [OPTIONS]
 ```
 
 **Options**:

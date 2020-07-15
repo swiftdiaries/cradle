@@ -1,0 +1,2 @@
+name: mnist
+uri: s3://swiftdiaries/us-east1/mnist-v3
